@@ -1,5 +1,12 @@
 class ChInput:
     def __init__(self):
-        import time
-        self.TimeNow = time.clock_gettime(time.CLOCK_REALTIME)
+        import datetime as dt
+        self.TimeNow = int(dt.now())
+
+
+    def rien(self, date):
         print(self.TimeNow)
+
+
+Omg = ChInput
+Omg.rien(1, 52)
