@@ -1,12 +1,17 @@
+import datetime as dt
+
 class ChInput:
+    import datetime as dt
     def __init__(self):
-        import datetime as dt
-        self.TimeNow = int(dt.now())
+        self.TimeNow = dt.date.today()
 
+    def AgeIn100Years(self):
+        print('What is your name?')
+        name = input()
+        print('How old are you?')
+        age = input()
+        print('How much timea you want to know it?')
+        times = input()
 
-    def rien(self, date):
-        print(self.TimeNow)
-
-
-Omg = ChInput
-Omg.rien(1, 52)
+oui = ChInput()
+oui.AgeIn100Years()
