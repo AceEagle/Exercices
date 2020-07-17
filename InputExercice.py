@@ -18,7 +18,7 @@ class ChInput:
         YearIn100 = YearNow + YearNeeded
 
         for x in range(0, int(times)):
-            print("Vous aurez 100 ans en {} !".format(YearIn100))
+            print("{}, vous aurez 100 ans en {} !\n".format(name, YearIn100))
 
 
 
