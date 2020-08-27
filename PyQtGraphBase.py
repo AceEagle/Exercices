@@ -41,8 +41,6 @@ import os
 #
 #         #self.graphWidget.clear() if u want to clear the plots
 #
-#
-#
 #         self.plot(hour, temperature_1, "Sensor1", 'r') #add a new plot for each plot u want
 #         self.plot(hour, temperature_2, "Sensor2", 'b')
 #
